@@ -1,3 +1,12 @@
+--[[
+
+	ObjectHover
+	@author Garantae
+
+	Show the data (i.e. name) of a hovered object containing an "ItemName" StringValue. 
+
+--]]
+
 --// Client
 local player = game.Players.LocalPlayer
 local mouse = player:GetMouse()
