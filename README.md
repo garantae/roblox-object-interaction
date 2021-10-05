@@ -1,5 +1,5 @@
 # About
-Details what an object does when interacted by a player. When attempting to open a locked door, if the player does not own the required item, they will receive a unique status message asking them to find an item to unlock it. To collect said item, the player must click on it which will create a StringValue in the player's character model where it can be recorded and checked for possession by the server (and thereby other objects). For the client, the collected item's name and image will be sent to the player's inventory interface where it can be viewed by them.
+Showcases what an object does when interacted by a player, as well as how objects interact with other objects. When attempting to open a locked door, if the player does not own the required item, they will receive a unique status message asking them to find an item to unlock it. To collect said item, the player must click on it which will create a StringValue in the player's character model where it can be recorded and checked for possession by the server (and thereby other objects). For the client, the collected item's name and image will be sent to the player's inventory interface where it can be viewed by them.
 
 # Showcased Functions
 * #### Locked Door
