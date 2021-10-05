@@ -3,7 +3,11 @@ Details what an object does when interacted by a player. When attempting to open
 
 # Showcased Functions
 * #### Locked Door
-  * Deny entry to players without a key, as well as granting entry to those with one. Additionally, the locked door will send unique status messages to players based on its current state (locked/unlocked).
+  * Deny entry to players without a key, as well as granting en
+
+
+
+try to those with one. Additionally, the locked door will send unique status messages to players based on its current state (locked/unlocked).
 * #### Object Hover
   * Objects containing the "ItemName" StringValue will have its data sent to the player's user interface and allow interaction upon mouse hover.
 * #### Item Inventory
@@ -14,3 +18,6 @@ Details what an object does when interacted by a player. When attempting to open
 
 https://user-images.githubusercontent.com/91921033/136106373-ff98b3fe-3047-4104-b0f1-1af9aed7f77a.mp4
 
+# Inventory Showcase
+
+https://user-images.githubusercontent.com/91921033/136113552-f9abb876-fb49-4f42-a15c-e3c47cbc9abc.mp4
