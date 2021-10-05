@@ -27,7 +27,7 @@ game:GetService('RunService').RenderStepped:Connect(function()
 	    local pos2 = player.Character:WaitForChild("Torso").Position
 	    local magnitude = (pos1 - pos2).magnitude
 		
-     --// Find the "ItemName" StringValue in an object then display it.
+    		--// If object has "ItemName" StringValue, display it 
 		if workspace:FindFirstChild(mouse.Target.Name) ~= nil and workspace[mouse.Target.Name]:FindFirstChild("ItemName") ~= nil and magnitude <= 10 then
 			
 			HOVER_TXT.Text = workspace[mouse.Target.Name]:FindFirstChild("ItemName").Value
